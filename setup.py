@@ -35,14 +35,14 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    name='django-freeradius',
+    name='cloudberry-django-freeradius',
     version=get_version(),
     license='BSD',
     author='Fiorella De Luca',
     author_email='deluca_fiorella@yahoo.it',
     description='Django reusable app that provides an admin interface to a freeradius database',
     long_description=open('README.rst').read(),
-    url='https://github.com/openwisp/django-freeradius',
+    url='https://github.com/innovationgarage/django-freeradius',
     download_url='https://github.com/openwisp/django-freeradius/releases',
     platforms=['Platform Indipendent'],
     keywords=['django', 'freeradius', 'radius', 'AAA', 'openwisp'],
